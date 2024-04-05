@@ -56,3 +56,55 @@ nav ul li a{
     color: #212529;
     font-size: 20px;
 }
+
+
+/* Login form Css */
+/* Wrote by robiul */
+
+.main_div {
+    height: 100vh;
+}
+
+.card {
+    border: none;
+    background: #A76F6F;
+    color: #fff;
+    margin-right: 80px;
+    margin-left: 80px;
+}
+
+p {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.divition {
+    width: 100%;
+    text-align: center;
+    margin: 30px auto 20px;
+}
+
+.divition span {
+    font-size: 25px;
+    font-weight: 500;
+
+}
+
+.my_form {
+    padding: 0px 25px 0px 35px;
+}
+
+button {
+    border: none;
+    direction: none;
+}
+
+.btn {
+    text-decoration: none;
+    /* color: #75CAEB; */
+    background: #75CAEB;
+}
+
+.btn-r {
+    background: #FF851B;
+}
