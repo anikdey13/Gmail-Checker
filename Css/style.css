@@ -119,3 +119,55 @@ button {
     border-radius: 5px;
     font-size: 20px;
 }
+
+
+
+
+/* Registration form css */
+.reg-form .main_div {
+    height: 100vh;
+}
+
+.reg-form  .card {
+    border: none;
+    background: #A76F6F;
+    color: #fff;
+    margin-right: 80px;
+    margin-left: 80px;
+}
+
+.reg-form p {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.reg-form .divition {
+    width: 100%;
+    text-align: center;
+    margin: 30px auto 20px;
+}
+
+/* .divition span {
+    font-size: 25px;
+    font-weight: 500;
+
+} */
+
+.my_form {
+    padding: 0px 25px 0px 35px;
+}
+
+.reg-form button {
+    border: none;
+    direction: none;
+}
+
+.reg-form .btn {
+    text-decoration: none;
+    /* color: #75CAEB; */
+    background: #75CAEB;
+}
+
+.reg-form .btn-r {
+    background: #FF851B;
+}
