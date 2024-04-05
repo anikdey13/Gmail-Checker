@@ -99,12 +99,23 @@ button {
     direction: none;
 }
 
-.btn {
+.btn a {
     text-decoration: none;
     /* color: #75CAEB; */
     background: #75CAEB;
+
+    color: #000;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 20px;
 }
 
-.btn-r {
+.btn-r a {
     background: #FF851B;
+
+    text-decoration: none;
+    padding: 10px;
+    color: #000;
+    border-radius: 5px;
+    font-size: 20px;
 }
