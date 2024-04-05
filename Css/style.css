@@ -171,3 +171,40 @@ button {
 .reg-form .btn-r {
     background: #FF851B;
 }
+
+
+
+/* Landing page Card section css start */
+.cards{
+    background-color: #ddd;
+}
+.cards .card {
+    border: 1px solid #000;
+    text-align: center;
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background-color: rgb(70 25 89);
+}
+.cards .card span{
+    font-size: 20px;
+    border: 1px solid #000;
+    border-radius: 50%;
+    padding: 10px;
+    width: 50px;
+    background-color: #fff;
+    color: gold;
+    display: inline-block;
+    margin-top: 10px;
+}
+.cards .card a{
+    margin-bottom: 10px;
+    font-size: 20px;
+    text-decoration: none;
+    display: inline-block;
+    padding: 10px;
+    font-weight: 500;
+    color: rgb(221, 88, 214);
+}
