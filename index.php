@@ -1,36 +1,5 @@
-<!DOCTYPE html>
-<html lang="en">
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Gmail Checker</title>
-    <!-- Bootstraps -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-    <!-- FontAwesome -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
-        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <!-- Custom Css -->
-    <link rel="stylesheet" href="Css/style.css">
-</head>
-
-<body>
-    <header>
-        <div class="logo">
-            <span class="logo-icon"><i class="far fa-envelope"></i></span>
-            <span class="logo-text">Gmail Checker</span>
-        </div>
-        <nav>
-            <ul>
-                <li><a href="#">Price/New*</a></li>
-                <li><a href="#">Contacts</a></li>
-                <li><a href="#">Login</a></li>
-            </ul>
-        </nav>
-    </header>
-
+    <?php include 'header.php' ?>
 
     <!-- Wrote by Robiul -->
 
@@ -55,24 +24,24 @@
                                 </div>
                             </div>
                             <!-- start from  -->
-                            <form class="my_form">
+                            <form class="my_form" method="post" action="functionality/login.php">
                                 <div class="mb-3">
-                                    <input type="email" class="form-control" id="exampleFormControlInput1"
+                                    <input type="text" name="username" class="form-control" id="exampleFormControlInput1"
                                         placeholder="User name">
                                 </div>
                                 <div class="mb-3">
-                                    <input type="email" class="form-control" id="exampleFormControlInput1"
+                                    <input type="password" name="password" class="form-control" id="exampleFormControlInput1"
                                         placeholder="password">
                                 </div>
                                 <div class="my-3 ">
-                                    <button type="button" class="btn btn-block  btn-lg"><span>
-                                            <a href="#">LOGIN</a>
+                                    <button type="submit" class="btn btn-block  btn-lg"><span>
+                                            <a>LOGIN</a>
                                         </span></button>
                                 </div>
                                 <P><span>You don't have an account?</span></P>
                                 <div class="my-3 ">
-                                    <button type="button" class="btn-r btn-block  btn-lg"><span>
-                                            <a href="register.html">REGISTATION</a>
+                                    <button type="submit" class="btn-r btn-block  btn-lg"><span>
+                                            <a href="register.php">REGISTATION</a>
                                         </span></button>
                                 </div>
 
@@ -85,6 +54,8 @@
             </div>
         </div>
     </section>
+
+    <!-- Landing page card section  -->
 
     <section class="cards py-5">
         <div class="container">

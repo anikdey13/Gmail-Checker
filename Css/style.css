@@ -73,7 +73,7 @@ nav ul li a{
     margin-left: 80px;
 }
 
-p {
+.card p {
     font-size: 20px;
     font-weight: 500;
 }
@@ -207,4 +207,48 @@ button {
     padding: 10px;
     font-weight: 500;
     color: rgb(221, 88, 214);
+}
+
+
+/* Home page */
+/* Input section Css Start */
+
+.input__section__text-area textarea{
+    width: 100%;
+    padding: 10px;
+    background-color: rgb(255 240 240);
+    border: 5px solid rgb(167 111 111);
+    border-radius: 5px;
+}
+.input__section__input-file{
+    border: 1px dotted blue;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.input__section__input-file input{
+    display: none;
+
+}
+.input__section__input-file p {
+    margin-bottom: 0;
+    font-size: 15px;
+    display: inline-block;
+}
+.input__section__input-file span{
+     padding: 0 10px;
+     font-size: 20px;
+     color:#FF851B;
+}
+.input__section__submit-btn{
+    text-align: center;
+}
+.input__section__submit-btn button:first-child{
+    background-color: #862b0d;
+    border: none;
+    margin-right: 10px;
+}
+.input__section__submit-btn button:last-child{
+    background-color: #ea5455;
+    border: none;
 }
